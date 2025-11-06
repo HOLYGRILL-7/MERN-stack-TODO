@@ -1,0 +1,19 @@
+
+# === Common ===
+node_modules/
+.env
+dist/
+build/
+__pycache__/
+.DS_Store
+*.log
+
+# === Frontend ===
+frontend/node_modules/
+frontend/build/
+
+# === Backend ===
+backend/node_modules/
+backend/.env
+backend/__pycache__/
+backend/dist/
