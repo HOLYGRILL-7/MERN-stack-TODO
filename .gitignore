@@ -1,15 +1,27 @@
-# ignore all node_modules everywhere
+# Node dependencies
 node_modules/
-*/node_modules/
 
-# ignore environment files
-.env
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# ignore build outputs
+# Build folders
 dist/
 build/
-*/dist/
-*/build/
 
-# misc
+# Environment variables
+.env
+
+# OS / IDE files
 .DS_Store
+Thumbs.db
+.vscode/
+
+# Ignore frontend build files
+blogFrontend/node_modules/
+blogFrontend/dist/
+blogFrontend/dist-ssr/
+blogFrontend/.local
+blogFrontend/.vscode/
+blogFrontend/.DS_Store

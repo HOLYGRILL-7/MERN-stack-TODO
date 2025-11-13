@@ -55,7 +55,7 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-950 via-green-950 to-emerald-900 py-12 px-4">
+    <div className="min-h-screen  bg-gradient-to-br from-green-950 via-green-950 to-emerald-900 py-12 px-4">
       <div className="max-w-2xl mx-auto">
         <h1 className="text-4xl font-bold text-center mb-8 p-1 bg-gradient-to-r from-green-300 to-emerald-400 bg-clip-text text-transparent drop-shadow-lg">
           My Todos

@@ -1,10 +1,12 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
-const PORT = 8000;
+
+const todoRoutes = require("./routes/todoRoutes");
 
 const app = express();
 
+const PORT = 8000;
 //Middleware
 app.use(cors()); //enables frontend to safely talk to the backend
 app.use(express.json()); //helps to read json from requests
@@ -23,7 +25,6 @@ app.get("/", (req, res) => {
   res.send("Todo API is running...");
 });
 
-const todoRoutes = require("./routes/todoRoutes");
 app.use("/todos", todoRoutes);
 
 app.listen(8000, () => {
